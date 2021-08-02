@@ -29,7 +29,7 @@ ms.locfileid: "110078294"
 * **IoT ハブ** です。 手順については、「[IoT Hub のクイックスタート](../iot-hub/quickstart-send-telemetry-cli.md)」の「IoT Hub の作成」セクションを参照してください。
 * IoT Hub のデータに基づいてデジタル ツイン情報を更新する [Azure 関数](../azure-functions/functions-overview.md)。  [「ハウツー: IoT ハブ データを取り込み、この Azure 関数を作成する」](how-to-ingest-iot-hub-data.md) の手順に従います。 この記事で使用する関数 **_名_** を収集します。
 
-このサンプルでは、Device Provisioning Service を使用したプロビジョニングを含む **デバイス シミュレーター** も使用します。 デバイス シミュレーターは次の場所にあります: [Azure Digital Twins と IoT Hub の統合のサンプル](/samples/azure-samples/digital-twins-iothub-integration/adt-iothub-provision-sample/)。 サンプルのリンクに移動し、タイトルの下にある **[Browse Code]\(コードの参照\)** ボタンを選択して、お使いのマシン上でサンプル プロジェクトを取得します。 これにより、サンプル用の GitHub リポジトリに移動します。 **[Code]\(コード\)** ボタンと、 **[Download ZIP]\(ZIP のダウンロード\)** を選択することによって、.ZIP ファイルとしてダウンロードできます。 
+このサンプルでは、Device Provisioning Service を使用したプロビジョニングを含む **デバイス シミュレーター** も使用します。 デバイス シミュレーターは次の場所にあります: [Azure Digital Twins and IoT Hub provisioning integration sample](/samples/azure-samples/digital-twins-iothub-integration/adt-iothub-provision-sample/)。 サンプルのリンクに移動し、タイトルの下にある *[Download ZIP]* ボタンを選択して、お使いのマシンにサンプル プロジェクトを取得します。 ダウンロードしたフォルダーを解凍します。
 
 :::image type="content" source="media/how-to-provision-using-device-provisioning-service/download-repo-zip.png" alt-text="GitHub にある digital-twins-iothub-integration リポジトリのスクリーンショット。[Code]\(コード\) ボタンが選択され、生成された小さなダイアログ ボックスで、[Download ZIP]\(ZIP のダウンロード\) ボタンが強調表示されています。" lightbox="media/how-to-provision-using-device-provisioning-service/download-repo-zip.png":::
 
@@ -353,5 +353,5 @@ Azure 関数で HTTP 要求を使用する方法の詳細については次を�
 
 Azure Digital Twins に既に格納されているモデルとグラフ データを使用して、この情報を自動的に提供するカスタム ロジックを作成できます。 ツイン グラフの情報の管理、アップグレード、および取得の詳細については、以下を参照してください。
 
-* [方法: デジタル ツインを管理する](how-to-manage-twin.md)
-* [ツイン グラフにクエリを実行する方法](how-to-query-graph.md)
+* [*方法: デジタル ツインを管理する*](how-to-manage-twin.md)
+* [*方法: ツイン グラフにクエリを実行する*](how-to-query-graph.md)

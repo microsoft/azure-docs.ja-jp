@@ -119,7 +119,7 @@ ms.locfileid: "107951794"
 >| クラシックのスペル | 同等のリソース マネージャー タグ |
 >|---|---|
 >| AZURE_LOADBALANCER | AzureLoadBalancer |
->| INTERNET | インターネット |
+>| INTERNET | Internet |
 >| VIRTUAL_NETWORK | VirtualNetwork |
 
 > [!NOTE]

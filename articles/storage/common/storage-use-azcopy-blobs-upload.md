@@ -15,7 +15,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "107502914"
 ---
-# <a name="upload-files-to-azure-blob-storage-by-using-azcopy"></a>AzCopy を使用して Azure BLOB ストレージにファイルをアップロードする
+# <a name="upload-files-to-azure-blob-storage-by-using-azcopy-v10"></a>AzCopy v10 を使用して Azure Blob Storage にファイルをアップロードする
 
 AzCopy v10 コマンド ライン ユーティリティを使用して、BLOB ストレージにファイルやディレクトリをアップロードできます。 
 
@@ -285,9 +285,4 @@ azcopy copy 'C:\myDirectory\*' 'https://mystorageaccount.blob.core.windows.net/m
 - [例: Google Cloud Storage](storage-use-azcopy-google-cloud.md)
 - [例:Azure Files](storage-use-azcopy-files.md)
 - [チュートリアル:AzCopy を使用したオンプレミス データのクラウド ストレージへの移行](storage-use-azcopy-migrate-on-premises-data.md)
-
-設定の構成、パフォーマンスの最適化、および問題のトラブルシューティングを行うには、これらの記事を参照してください。
-
-- [AzCopy の構成設定](storage-ref-azcopy-configuration-settings.md)
-- [AzCopy のパフォーマンスを最適化する](storage-use-azcopy-optimize.md)
-- [ログ ファイルを使用した Azure Storage での AzCopy V10 の問題のトラブルシューティング](storage-use-azcopy-configure.md)
+- [AzCopy の構成、最適化、トラブルシューティング](storage-use-azcopy-configure.md)

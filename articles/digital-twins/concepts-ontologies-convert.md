@@ -49,7 +49,7 @@ Azure Digital Twins サービスで使用するために、RDF ベースのモ�
 
 コードを自分のマシンにダウンロードするには、サンプル ページのタイトルの下にある **[Browse code]\(コードの参照\)** ボタンを選択します。これにより、サンプルの GitHub リポジトリに移動します。 **[コード]** ボタンと **[ZIP のダウンロード]** を選択して、*RdfToDtdlConverter-main.zip* という名前の .ZIP ファイルとしてサンプルをダウンロードします。 その後、そのファイルを解凍してコードを調べることができます。
 
-:::image type="content" source="media/concepts-ontologies-convert/download-repo-zip.png" alt-text="GitHub 上の RdfToDtdlConverter リポジトリのスクリーンショット。[コード] ボタンが選択されて、小さなダイアログ ボックスが生成され、[ZIP のダウンロード] ボタンが強調表示されています。" lightbox="media/concepts-ontologies-convert/download-repo-zip.png":::
+コードをお使いのマシンにダウンロードするには、サンプルのランディング ページのタイトルの下にある *[Download ZIP]* ボタンをクリックします。 これで、*ZIP* ファイルが *RdfToDtdlConverter_sample_application_to_convert_RDF_to_DTDL.zip* という名前でダウンロードされます。その後、このファイルを解凍して探索することができます。
 
 このサンプルを使用して、コンテキストでの変換パターンを確認し、独自の具体的なニーズに応じてモデルの変換を実行する独自のアプリケーションのために、構成要素として用意することができます。
 
@@ -63,4 +63,4 @@ Azure Digital Twins サービスで使用するために、RDF ベースのモ�
 
 * 仕様に合うように業界標準のオントロジを拡張する方法について学習します。"[概念: 業界のオントロジの拡張](concepts-ontologies-extend.md)" に関する記事。
 
-* または、オントロジに基づいてモデルを開発するためのパスを続行します。[モデル開発パスでのオントロジ戦略の使用](concepts-ontologies.md#using-ontology-strategies-in-a-model-development-path)に関する記事。
+* または、オントロジに基づいてモデルを開発するためのパスを続行します。[*モデル開発パスでのオントロジ戦略の使用*](concepts-ontologies.md#using-ontology-strategies-in-a-model-development-path)に関する記事。

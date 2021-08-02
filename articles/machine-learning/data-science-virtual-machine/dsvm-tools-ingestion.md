@@ -57,12 +57,13 @@ ms.locfileid: "110070950"
 ## <a name="azure-storage-explorer"></a>Azure ストレージ エクスプローラー
 
 | カテゴリ | 値 |
-|--|--|
-| 紹介 | Azure クラウドに格納されているファイルと対話するためのグラフィカル ユーザー インターフェイス。 |
-| サポートされている DSVM バージョン | Windows |
-| 標準的な使用 | DSVM からのデータのインポートとエクスポート。 |
-| 使用/実行方法 | [スタート] メニュー内で "Azure Storage Explorer" を検索します。 |
-| サンプルへのリンク | [Azure Storage Explorer](vm-do-ten-things.md#access-azure-data-and-analytics-services) |
+| ------------- | ------------- |
+| 紹介   | Azure クラウドに格納されているファイルと対話するためのグラフィカル ユーザー インターフェイス。 |
+| サポートされている DSVM バージョン      | Windows      |
+| 標準的な使用      | DSVM からのデータのインポートとエクスポート。    |
+|  使用/実行方法    | [スタート] メニュー内で "Azure Storage Explorer" を検索します。 |
+| サンプルへのリンク      | [Azure Storage Explorer](vm-do-ten-things.md#access-azure-data-and-analytics-services)      |
+
 
 ## <a name="bcp"></a>bcp
 
@@ -77,9 +78,10 @@ ms.locfileid: "110070950"
 ## <a name="blobfuse"></a>blobfuse
 
 | カテゴリ | 値 |
-|--|--|
-| 紹介 | Linux ファイル システムで Azure Blob Storage コンテナーをマウントするツール。 |
-| サポートされている DSVM バージョン | Linux |
-| 標準的な使用 | コンテナー内の BLOB に対する読み取りと書き込み。 |
-| 使用と実行の方法 | 端末で _blobfuse_ を実行します。 |
-| サンプルへのリンク | [GitHub の blobfuse](https://github.com/Azure/azure-storage-fuse) |
+| ------------- | ------------- |
+| 紹介   | Linux ファイル システムで Azure Blob Storage コンテナーをマウントするツール。      |
+| サポートされている DSVM バージョン      | Linux      |
+| 標準的な使用      | コンテナー内の BLOB に対する読み取りと書き込み。      |
+|  使用と実行の方法    |   端末で _blobfuse_ を実行します。    |
+| サンプルへのリンク      | [GitHub の blobfuse](https://github.com/Azure/azure-storage-fuse)      |
+| DSVM 上の関連ツール      | Azure CLI      |

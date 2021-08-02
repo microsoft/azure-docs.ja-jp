@@ -81,7 +81,7 @@ Azure Digital Twins インスタンスを再作成しようとしている場合
 
 Azure Digital Twins Explorer の設定を進めるには、まず、サンプル アプリケーション コードをダウンロードして設定し、コンピューター上で実行します。
 
-サンプルを入手するには、[Azure Digital Twins Explorer](/samples/azure-samples/digital-twins-explorer/digital-twins-explorer/) に関するページに移動してください。 タイトルの下の **[コードの参照]** ボタンを選択すると、サンプルの GitHub リポジトリに移動します。 **[コード]** ボタンと **[ZIP のダウンロード]** を選択してサンプルを *.ZIP* ファイルとしてコンピューターにダウンロードします。
+サンプルを入手するには、[Azure Digital Twins Explorer](/samples/azure-samples/digital-twins-explorer/digital-twins-explorer/) に関するページを参照してください。 **[Download ZIP]** ボタンを選択して、このサンプル コードの .zip ファイルを、ご利用のコンピューターに **Azure_Digital_Twins__ADT__explorer.zip** としてダウンロードします。 ファイルを解凍します。
 
 :::image type="content" source="media/how-to-move-regions/download-repo-zip.png" alt-text="GitHub にある digital-twins-explorer リポジトリのスクリーンショット。[コード] ボタンが選択され、表示された小さなダイアログ ボックスで [ZIP のダウンロード] ボタンが強調表示されています。" lightbox="media/how-to-move-regions/download-repo-zip.png":::
 

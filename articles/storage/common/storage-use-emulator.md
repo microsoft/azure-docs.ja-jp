@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/03/2021
 ms.locfileid: "106277115"
 ---
-# <a name="use-the-azure-storage-emulator-for-development-and-testing"></a>開発とテストに Azure ストレージ エミュレーターを使用する
+# <a name="use-the-azure-storage-emulator-for-development-and-testing"></a>開発とテストに Azure Storage Emulator を使用する
 
 Microsoft Azure Storage Emulator は、ローカル開発のために Azure の Blob service、Queue サービス、Table service をエミュレートするツールです。 Azure サブスクリプションを作成したりコストをかけたりすることなく、ローカル環境でストレージ サービスに対してアプリケーションをテストできます。 エミュレーターでアプリケーションの動作に問題がなければ、クラウドの Azure ストレージ アカウントを使用するように切り替えます。
 

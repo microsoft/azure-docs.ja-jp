@@ -596,7 +596,55 @@
         - name: よく寄せられる質問
           displayName: 'classic, migration, classic to ARM, CSES, Cloud Services'
           href: migration-classic-resource-manager-faq.md
-- name: 画像
+    - name: 管理の基礎
+      items:
+        - name: リソースの管理
+          items:
+            - name: Linux
+              href: ./linux/tutorial-govern-resources.md
+            - name: Windows
+              href: ./windows/tutorial-govern-resources.md
+        - name: 時間同期
+          items:
+            - name: Linux
+              href: ./linux/time-sync.md
+            - name: Windows
+              href: ./windows/time-sync.md
+        - name: VM でのスクリプトの実行
+          items:
+            - name: カスタム スクリプト拡張機能
+              items:
+                - name: Linux
+                  href: ./extensions/custom-script-linux.md
+                - name: Windows
+                  href: ./extensions/custom-script-windows.md
+            - name: 実行コマンド
+              items:
+                - name: Linux
+                  href: ./linux/run-command.md
+                - name: Windows
+                  href: ./windows/run-command.md
+            - name: Hybrid Runbook Worker
+              href: ../automation/automation-hybrid-runbook-worker.md
+            - name: シリアル コンソール
+              items:
+                - name: Linux
+                  href: ./troubleshooting/serial-console-linux.md
+                - name: Windows
+                  href: ./troubleshooting/serial-console-windows.md
+        - name: 入れ子になった仮想化の有効化
+          href: ./windows/nested-virtualization.md
+        - name: File Storage
+          items:
+            - name: SMB を使用した Linux マウント
+              href: ./linux/mount-azure-file-storage-on-linux-using-smb.md
+            - name: ファイルを Linux VM にコピーする
+              href: ./linux/copy-files-to-linux-vm-using-scp.md
+        - name: 更新プログラムとパッチ
+          items:
+            - name: Red Hat Update Infrastructure
+              href: ./workloads/redhat/redhat-rhui.md
+- name: イメージ
   items:
     - name: Azure Marketplace イメージの検索
       items:

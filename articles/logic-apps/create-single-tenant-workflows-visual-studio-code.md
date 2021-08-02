@@ -65,13 +65,45 @@ Azure Logic Apps のコンテナー化されたランタイムが再設計され
 
 ### <a name="storage-requirements"></a>ストレージの要件
 
-Visual Studio Code でローカル開発を行う場合は、ローカルの開発環境で実行するために使用するロジック アプリ プロジェクトとワークフロー用のローカル データ ストアを設定する必要があります。 Azurite ストレージ エミュレーターをローカル データ ストアとして使用および実行できます。
+#### <a name="windows"></a>Windows
+
+Windows を使用している場合、Visual Studio Code でロジック アプリ プロジェクトをローカルでビルドして実行するには、次の手順に従って Azure Storage Emulator を設定してください。
+
+1. [Azure Storage Emulator 5.10](https://go.microsoft.com/fwlink/p/?linkid=717179) をダウンロードしてインストールします。
 
 1. [Azurite 3.12.0 以降](https://www.npmjs.com/package/azurite)をダウンロードしてインストールします。
 1. ロジック アプリを実行する前に、エミュレーターを起動してください。
 
-詳細については、[Azurite のドキュメント](https://github.com/Azure/Azurite#azurite-v3)をご覧ください。
+   詳細については、「[開発とテストに Azure Storage Emulator を使用する](../storage/common/storage-use-emulator.md)」を参照してください。
 
+1. プロジェクトを実行する前に、エミュレーターを起動していることを確認してください。
+
+   ![実行中の Azure Storage Emulator を示すスクリーンショット。](./media/create-stateful-stateless-workflows-visual-studio-code/start-storage-emulator.png)
+
+#### <a name="macos-and-linux"></a>macOS、Linux
+
+macOS または Linux を使用している場合、Visual Studio Code でロジック アプリ プロジェクトをローカルでビルドして実行するには、次の手順に従って Azure ストレージ アカウントを作成および設定してください。
+
+> [!NOTE]
+> 現在、Visual Studio Code のデザイナーは Linux OS で動作しませんが、Logic Apps プレビュー ランタイムを使用するロジック アプリのビルド、実行、および Linux ベースの仮想マシンへのデプロイはできます。 現在のところ、Windows または macOS の Visual Studio Code でロジック アプリを構築してから、Linux ベースの仮想マシンにデプロイすることができます。
+
+1. [Azure portal](https://portal.azure.com) にサインインし、[Azure ストレージ アカウントを作成](../storage/common/storage-account-create.md?tabs=azure-portal)します。これは、[Azure Functions の前提条件](../azure-functions/storage-considerations.md)です。
+
+1. ストレージ アカウント メニューの **[設定]** で、 **[アクセス キー]** を選択します。
+
+1. **[アクセス キー]** ペインで、ストレージ アカウントの接続文字列を探してコピーします。接続文字列は、次の例のようなものです。
+
+   `DefaultEndpointsProtocol=https;AccountName=fabrikamstorageacct;AccountKey=<access-key>;EndpointSuffix=core.windows.net`
+
+   ![Azure portal およびコピーされたストレージ アカウント アクセス キーと接続文字列が示されているスクリーンショット。](./media/create-stateful-stateless-workflows-visual-studio-code/find-storage-account-connection-string.png)
+
+   詳細については、[ストレージ アカウント キーの管理](../storage/common/storage-account-keys-manage.md?tabs=azure-portal#view-account-access-keys)に関するページをご確認ください。
+
+1. 接続文字列を安全な場所に保存します。 Visual Studio Code でロジック アプリ プロジェクトを作成した後、プロジェクトのルート レベル フォルダーにある **local.settings.json** ファイルにこの文字列を追加する必要があります。
+
+   > [!IMPORTANT]
+   > Docker コンテナーへのデプロイを計画している場合は、デプロイに使用する Docker ファイルにもこの接続文字列を使用する必要があります。 運用環境のシナリオでは、たとえば、キー コンテナーを使用して、このようなシークレットや機密情報を保護し、セキュリティで保護するようにしてください。
+  
 ### <a name="tools"></a>ツール
 
 * 無料の [Visual Studio Code](https://code.visualstudio.com/)。 また、Visual Studio Code 用の次のツールをダウンロードしてインストールします (まだインストールしていない場合)。

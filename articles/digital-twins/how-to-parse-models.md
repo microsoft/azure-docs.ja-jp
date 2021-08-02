@@ -25,7 +25,7 @@ NuGet には、これを行うのに役立つ .NET クライアント側の DTDL
 
 ## <a name="use-the-dtdl-validator-sample"></a>DTDL 検証ツール サンプルを使用する
 
-[DTDL 検証ツール](/samples/azure-samples/dtdl-validator/dtdl-validator)は、モデル ドキュメントを検証して DTDL が有効であることを確認できるサンプル プロジェクトです。 これは、.NET パーサー ライブラリに基づいて構築されており、言語に依存しません。 これは、サンプル リンクの *[ZIP のダウンロード]* ボタンで取得できます。
+[**DTDL 検証ツール**](/samples/azure-samples/dtdl-validator/dtdl-validator)は、モデル ドキュメントを検証して DTDL が有効であることを確認できるサンプル プロジェクトです。 これは、.NET パーサー ライブラリに基づいて構築されており、言語に依存しません。 これは、サンプル リンクの *[Download ZIP]* ボタンで取得できます。
 
 ソース コードには、パーサー ライブラリを使用する方法の例が示されています。 この検証ツール サンプルは、DTDL ファイルのディレクトリ ツリーを検証するコマンド ライン ユーティリティとして使用できます。 また、対話モードも用意されています。
 
@@ -87,4 +87,4 @@ DTDLValidator -i
 ## <a name="next-steps"></a>次のステップ
 
 モデルの作成が完了したら、DigitalTwinsModels API シリーズを使用してモデルをアップロードする方法 (およびその他の管理操作を実行する方法) を確認してください。
-* [方法: DTDL モデルの管理](how-to-manage-model.md)に関する記事
+* [*方法: DTDL モデルの管理*](how-to-manage-model.md)に関する記事

@@ -1,5 +1,5 @@
 ---
-title: Azure コンテナーの技術資産を準備する
+title: Azure Container の技術資産を準備する
 description: Azure Marketplace でコンテナー オファーを構成するのに役立つ技術リソースとガイドライン。
 ms.service: marketplace
 ms.subservice: partnercenter-marketplace-publisher
@@ -14,7 +14,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2021
 ms.locfileid: "107892483"
 ---
-# <a name="prepare-azure-container-technical-assets"></a>Azure コンテナーの技術資産を準備する
+# <a name="prepare-your-azure-container-technical-assets"></a>Azure Container の技術資産を準備する
 
 この記事では、Azure Marketplace でコンテナー オファーを作成するのに役立つ技術リソースと推奨事項を示します。
 
@@ -43,7 +43,7 @@ ms.locfileid: "107892483"
 
 開発環境には次にツールを加えることを推奨します｡
 
-- [Azure 記憶域エクスプローラー](../vs-azure-tools-storage-manage-with-storage-explorer.md?tabs=windows)
+- [Azure Storage Explorer](../vs-azure-tools-storage-manage-with-storage-explorer.md?tabs=windows)
 - [Visual Studio Code](https://code.visualstudio.com/)
   - 拡張機能: [Azure リソース マネージャー ツール](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
   - 拡張機能: [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
@@ -61,4 +61,4 @@ ms.locfileid: "107892483"
 
 ## <a name="next-steps"></a>次のステップ
 
-- [コンテナー オファーを作成する](azure-container-offer-setup.md)
+- [コンテナー オファーを作成する](create-azure-container-offer.md)
