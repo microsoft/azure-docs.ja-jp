@@ -41,7 +41,7 @@ Bing Custom Search API では 30 を超える国/地域がサポートされ、�
 |オーストリア|AT|
 |ベルギー|BE|
 |ブラジル|BR|
-|Canada|CA|
+|カナダ|CA|
 |チリ|CL|
 |デンマーク|DK|
 |フィンランド|FI|
@@ -71,7 +71,7 @@ Bing Custom Search API では 30 を超える国/地域がサポートされ、�
 |台湾|TW|
 |トルコ|TR|
 |イギリス|GB|
-|United States|US|
+|アメリカ|US|
 
 
 ## <a name="markets"></a>市場
@@ -104,7 +104,7 @@ Bing Custom Search API では 30 を超える国/地域がサポートされ、�
 |ノルウェー|ノルウェー語|no-NO|
 |中国|Chinese|zh-CN|
 |ポーランド|ポーランド語|pl-PL|
-|ポルトガル|Portuguese|pt-PT|
+|ポルトガル|ポルトガル語|pt-PT|
 |フィリピン|英語|en-PH|
 |ロシア|ロシア語|ru-RU|
 |サウジアラビア|アラビア語|ar-SA|
